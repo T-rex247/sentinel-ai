@@ -1,0 +1,27 @@
+{
+  "name": "@sentinel-ai/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@sentinel-ai/shared": "*",
+    "@sentinel-ai/listener": "*",
+    "@sentinel-ai/risk-engine": "*",
+    "@sentinel-ai/alerts": "*",
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}

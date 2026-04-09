@@ -1,0 +1,20 @@
+{
+  "name": "sentinel-ai",
+  "packageManager": "npm@10.9.2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-time security monitoring for AI agents on Solana",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^2.9.5",
+    "typescript": "^5.8.3"
+  }
+}
